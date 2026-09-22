@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#FA4F02" />
+    <title>Playing with Data</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Indie+Flower&family=Rubik:wght@400;500;600&family=Schoolbell&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#workshop">Skip to workshop</a>
+
+    <main id="workshop" class="workshop" tabindex="-1">
+      <section class="folder folder--guide is-active" data-step="0" aria-labelledby="guide-label">
+        <div class="folder-notch" aria-hidden="true"></div>
+        <button class="guide-open" type="button" data-next>
+          <span class="folder-label" id="guide-label">Guide</span>
+          <span class="guide-copy">
+            <span class="guide-title">Playing with Data</span>
+            <span class="guide-date">9.29.26 | 11am</span>
+          </span>
+          <span class="guide-mantra">Notice generously.<br />Question often.<br />Play seriously.</span>
+          <span class="open-cue">Start here <span aria-hidden="true">&#8594;</span></span>
+        </button>
+      </section>
+
+      <section class="folder folder--rupture" data-step="1" aria-labelledby="rupture-label" hidden>
+        <div class="folder-notch" aria-hidden="true"></div>
+        <header class="folder-header">
+          <p class="folder-kicker">Activity 1</p>
+          <h1 class="folder-label" id="rupture-label">Rupture</h1>
+        </header>
+
+        <div class="stage stage--buttons" data-stage aria-label="Moveable button collection">
+          <p class="drag-instruction">Move and group the buttons as you wish</p>
+          <div class="button-field" aria-label="Button artifacts">
+            <button class="artifact button-artifact button-a" data-draggable aria-label="Large four-hole button">
+              <svg viewBox="0 0 68 68" aria-hidden="true"><circle cx="34" cy="34" r="27"/><circle cx="27" cy="27" r="2.5"/><circle cx="41" cy="27" r="2.5"/><circle cx="27" cy="41" r="2.5"/><circle cx="41" cy="41" r="2.5"/></svg>
+            </button>
+            <button class="artifact button-artifact button-b" data-draggable aria-label="Plain round button">
+              <svg viewBox="0 0 68 68" aria-hidden="true"><circle cx="34" cy="34" r="25"/></svg>
+            </button>
+            <button class="artifact button-artifact button-c" data-draggable aria-label="Square button">
+              <svg viewBox="0 0 68 68" aria-hidden="true"><rect x="10" y="10" width="48" height="48" rx="6"/></svg>
+            </button>
+            <button class="artifact button-artifact button-d" data-draggable aria-label="Ringed round button">
+              <svg viewBox="0 0 74 74" aria-hidden="true"><circle cx="37" cy="37" r="28"/><circle cx="37" cy="37" r="22"/><g><circle cx="29" cy="29" r="3"/><circle cx="45" cy="29" r="3"/><circle cx="29" cy="45" r="3"/><circle cx="45" cy="45" r="3"/></g></svg>
+            </button>
+            <button class="artifact button-artifact button-e" data-draggable aria-label="Square button with an x">
+              <svg viewBox="0 0 68 68" aria-hidden="true"><rect x="12" y="12" width="44" height="44" rx="9"/><path d="m27 27 14 14m0-14L27 41"/></svg>
+            </button>
+            <button class="artifact button-artifact button-f" data-draggable aria-label="Grid button">
+              <svg viewBox="0 0 68 68" aria-hidden="true"><rect x="10" y="10" width="48" height="48" rx="4"/><path d="M22 10v48M34 10v48M46 10v48M10 22h48M10 34h48M10 46h48"/></svg>
+            </button>
+            <button class="artifact button-artifact button-g" data-draggable aria-label="Button with loose threads">
+              <svg viewBox="0 0 76 76" aria-hidden="true"><circle cx="31" cy="32" r="17"/><path d="M31 19v26M23 32h16M31 48c8 1 6 13 13 13 5 0 4-7 8-7 4 0 3 7 8 7"/><circle cx="26" cy="27" r="2"/><circle cx="36" cy="27" r="2"/></svg>
+            </button>
+            <button class="artifact button-artifact button-h" data-draggable aria-label="Repair button">
+              <svg viewBox="0 0 78 78" aria-hidden="true"><circle cx="39" cy="39" r="31"/><circle cx="39" cy="39" r="25"/><path d="m28 49 22-22M29 27l22 22M25 24l8 8m20-8-8 8M25 54l8-8m20 8-8-8"/></svg>
+            </button>
+            <button class="artifact button-artifact button-i" data-draggable aria-label="Medium four-hole button">
+              <svg viewBox="0 0 68 68" aria-hidden="true"><circle cx="34" cy="34" r="23"/><circle cx="28" cy="28" r="2"/><circle cx="40" cy="28" r="2"/><circle cx="28" cy="40" r="2"/><circle cx="40" cy="40" r="2"/></svg>
+            </button>
+            <button class="artifact button-artifact button-j" data-draggable aria-label="Small four-hole button">
+              <svg viewBox="0 0 68 68" aria-hidden="true"><circle cx="34" cy="34" r="18"/><circle cx="29" cy="29" r="2"/><circle cx="39" cy="29" r="2"/><circle cx="29" cy="39" r="2"/><circle cx="39" cy="39" r="2"/></svg>
+            </button>
+            <button class="artifact button-artifact button-k" data-draggable aria-label="Two-hole button">
+              <svg viewBox="0 0 68 68" aria-hidden="true"><circle cx="34" cy="34" r="22"/><circle cx="28" cy="34" r="2.5"/><circle cx="40" cy="34" r="2.5"/></svg>
+            </button>
+            <button class="artifact button-artifact button-l" data-draggable aria-label="Tiny four-hole button">
+              <svg viewBox="0 0 68 68" aria-hidden="true"><circle cx="34" cy="34" r="15"/><circle cx="29" cy="29" r="1.8"/><circle cx="39" cy="29" r="1.8"/><circle cx="29" cy="39" r="1.8"/><circle cx="39" cy="39" r="1.8"/></svg>
+            </button>
+            <button class="artifact button-artifact button-m" data-draggable aria-label="Stitched button">
+              <svg viewBox="0 0 68 68" aria-hidden="true"><circle cx="34" cy="34" r="24"/><path d="m22 34 8 8 16-18"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <blockquote class="rupture-copy">When a rupture, break, or interruption disrupts functionality or expectation, all of a sudden, the full materiality of a thing comes to the foreground of one's sensibilities and consciousness.</blockquote>
+
+        <div class="folder-actions">
+          <button class="text-button reset" type="button" data-reset>Reset buttons</button>
+          <button class="next-button" type="button" data-next>Continue to Activity 2 <span aria-hidden="true">&#8594;</span></button>
+        </div>
+      </section>
+
+      <section class="folder folder--embody" data-step="2" aria-labelledby="embody-label" hidden>
+        <div class="folder-notch" aria-hidden="true"></div>
+        <header class="folder-header">
+          <p class="folder-kicker">Activity 2</p>
+          <h1 class="folder-label" id="embody-label">Embody</h1>
+        </header>
+
+        <div class="stage stage--flower" data-stage aria-label="Moveable azalea">
+          <p class="drag-instruction">Move and size the azalea as you wish</p>
+          <div class="heart-layer" aria-hidden="true"></div>
+          <button class="artifact azalea" data-draggable aria-label="Azalea flower artifact">
+            <svg viewBox="0 0 300 300" aria-hidden="true">
+              <g class="petals">
+                <path d="M150 150C72 141 35 93 58 54c23-39 82 0 92 96Z"/>
+                <path d="M150 150c-21-76 7-130 51-124 44 7 37 76-51 124Z"/>
+                <path d="M150 150c66-43 126-30 132 14 6 44-63 56-132-14Z"/>
+                <path d="M150 150c61 50 66 111 25 128-42 17-71-47-25-128Z"/>
+                <path d="M150 150c-27 74-82 101-112 68-31-33 19-81 112-68Z"/>
+              </g>
+              <circle cx="150" cy="150" r="29"/>
+              <g class="stamens"><path d="m150 150-62-32m62 32 68-35m-68 35 51 51m-51-51-43 58m43-58 2-78"/><circle cx="88" cy="118" r="6"/><circle cx="218" cy="115" r="6"/><circle cx="201" cy="201" r="6"/><circle cx="107" cy="208" r="6"/><circle cx="152" cy="72" r="6"/></g>
+            </svg>
+          </button>
+        </div>
+
+        <p class="embody-copy">Step by step<br />on the flowers placed before you<br />tread lightly, softly as you go.</p>
+        <div class="folder-actions">
+          <div class="activity-tools">
+            <button class="text-button reset" type="button" data-reset>Reset azalea</button>
+            <label class="size-control">Azalea size <input type="range" min="65" max="155" value="100" data-azalea-size aria-label="Azalea size" /></label>
+          </div>
+          <button class="next-button" type="button" data-next>Continue to Activity 3 <span aria-hidden="true">&#8594;</span></button>
+        </div>
+      </section>
+
+      <section class="folder folder--design" data-step="3" aria-labelledby="design-label" hidden>
+        <div class="folder-notch" aria-hidden="true"></div>
+        <header class="folder-header">
+          <p class="folder-kicker">Activity 3</p>
+          <h1 class="folder-label" id="design-label">Design</h1>
+        </header>
+
+        <div class="stage stage--uno" data-stage aria-label="UNO card deck">
+          <p class="drag-instruction">What becomes possible when the rules change? Click the card to find out</p>
+          <button class="artifact uno-card" data-card-cycler data-card-type="wild" aria-label="Wild card. Click to draw a different card.">
+            <span class="uno-corner uno-corner--top" data-card-corner aria-hidden="true">W</span>
+            <span class="uno-oval" aria-hidden="true">
+              <span class="uno-symbol" data-card-symbol></span>
+            </span>
+            <span class="uno-corner uno-corner--bottom" data-card-corner aria-hidden="true">W</span>
+          </button>
+        </div>
+
+        <div class="folder-actions">
+          <button class="text-button reset" type="button" data-card-reset>Reset card</button>
+          <button class="next-button finish-button" type="button" data-finish>Thank you for participating!</button>
+        </div>
+      </section>
+    </main>
+
+    <div class="announcement" aria-live="polite" aria-atomic="true"></div>
+  </body>
+</html>
